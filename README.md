@@ -2,6 +2,7 @@
 [Dog, Cat] Classification using tensorflow. 
 
 ========================================================================
+
 OS : Ubuntu 20.04.1 LTS
 
 GPU : Nvidia 920M (2GB Memory)
@@ -12,6 +13,7 @@ Ram : 2GB utilized  / 12 GB total memory
 training minutes : 25 minutes
 
 IDE editor : spyder
+
 ========================================================================
 
 I have collected the data of 2000 images for training and 1000 images 
@@ -27,6 +29,7 @@ I have collected the data of 2000 images for training and 1000 images
 	- [1] Cat 
 
 =========================================================================
+
 Required modules.
 	os - to read the directory structure
 	numpy - convert the image to multi dimentional array
@@ -35,6 +38,7 @@ Required modules.
 	tensorflow - To build our model, train and prediction
 
 =========================================================================
+
 Here I have uploaded already preprocessed images to numpy array which ready for training and testing.
 	- All images are converted into numpy array as 64x64x3 dimension
 		- 64x64 width and height
@@ -48,6 +52,7 @@ Here I have uploaded already preprocessed images to numpy array which ready for 
 			- cats_and_dogs/validation/testlabel.npy
 
 ==========================================================================
+
 Python Files:
 	- CNNDogCatClassifier.py 
 		- required for preprocessing, training and train/validation accuracy visualization.
@@ -60,4 +65,5 @@ Python Files:
 		- required for predicting the cat / dog images
 		- Place the cat or dog images on same directory where the Prediction.py located.
 		- Prediction.py use the weight weights00000013.h5 which is already training by the CNNDogCatClassifier.py
+
 ==========================================================================
